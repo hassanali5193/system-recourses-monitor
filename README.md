@@ -8,47 +8,44 @@ As a system administrator, IT professional, or someone who enjoys working with L
 This script can be easily customized to suit your system's needs and extended with additional monitoring features as required.
 
 ## 🧑‍💻 Key Features
-CPU Usage Monitoring
-Alert Mechanism: Sends an alert when CPU usage exceeds the defined threshold.
+**CPU Usage Monitoring Alert Mechanism:** Sends an alert when CPU usage exceeds the defined threshold.
 
-Real-Time Updates: Provides current CPU usage statistics to keep you informed of system load.
+**Real-Time Updates:** Provides current CPU usage statistics to keep you informed of system load.
 
-RAM Usage Monitoring
-Free RAM Tracking: Notifies you when available RAM is low, ensuring you can take action before the system runs out of memory.
+**RAM Usage Monitoring Free RAM Tracking:** Notifies you when available RAM is low, ensuring you can take action before the system runs out of memory.
 
-Threshold Customization: Set your own thresholds based on your system’s specifications and needs.
+**Threshold Customization:** Set your own thresholds based on your system’s specifications and needs.
 
-Disk Space Monitoring
-Disk Space Alerts: Sends warnings when disk usage is critically high (e.g., when free space is below a certain level).
+**Disk Space Alerts:** Sends warnings when disk usage is critically high (e.g., when free space is below a certain level).
 
-Easy Customization: Adjust the disk space threshold as needed for your system’s storage size.
+**Easy Customization:** Adjust the disk space threshold as needed for your system’s storage size.
 
-Email Notifications
-Automatic Email Alerts: When CPU usage, RAM usage, or disk space exceeds the defined thresholds, the script sends an email notification.
+**Automatic Email Alerts:** When CPU usage, RAM usage, or disk space exceeds the defined thresholds, the script sends an email notification.
 
-Customizable Email: You can modify the email configuration in the script to send alerts to your desired email address.
+**Customizable Email:** You can modify the email configuration in the script to send alerts to your desired email address.
 
 Desktop Notifications (Optional)
-Real-Time Alerts: For those who prefer visual notifications on their desktop, this feature provides pop-up notifications whenever CPU usage exceeds the set threshold.
 
-Easy Setup: Uses the notify-send command for quick, native desktop alerts.
+**Real-Time Alerts:** For those who prefer visual notifications on their desktop, this feature provides pop-up notifications whenever CPU usage exceeds the set threshold.
+
+**Easy Setup:** Uses the notify-send command for quick, native desktop alerts.
 
 ## 🛠️ Technologies Used
 This project leverages several core Linux tools and Bash scripting techniques:
 
-Bash Scripting: The primary language used to create the monitoring script.
+**Bash Scripting:** The primary language used to create the monitoring script.
 
-Linux Commands:
+**Linux Commands:**
 
-top: Retrieves CPU usage statistics.
+*top:* Retrieves CPU usage statistics.
 
-free: Fetches available RAM data.
+*free:* Fetches available RAM data.
 
-df: Checks disk space usage.
+*df:* Checks disk space usage.
 
-notify-send: A tool for generating desktop notifications for users who want immediate alerts on high CPU usage.
+*notify-send:* A tool for generating desktop notifications for users who want immediate alerts on high CPU usage.
 
-mail Command: A simple command-line utility for sending emails from the terminal, used here to send resource usage alerts.
+*mail Command:* A simple command-line utility for sending emails from the terminal, used here to send resource usage alerts.
 
 
 ## 📈 Why This Script Matters
